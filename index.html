@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type = "text/javascript" src= "index.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles1.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="https://www.purdue.edu/push/">Purdue Student Health Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="http://www.google.com/calendar/event?action=TEMPLATE&text=Health%20Appointment&dates=20220917T160000/20220917T180000&details=Event%20Details%20Herelocation=601%20W%20Stadium%20Ave%2C%20West%20Lafayette%2C%20IN">Schedule your appointment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <section class="bg-warning" id="chatbot">
+        <div class="row">
+          <div class="col"></div>
+          <div class="col">
+            <div class="heading text-center"><h1>Healthcare Chatbot</h1></div>
+            <div class="intro text-md-end"><p id = "text1" >Hi, how can I help?</p></div>
+            <iframe 
+            allow="microphone;"
+            width="430"
+            height="430"
+            src="https://console.dialogflow.com/api-client/demo/embedded/eb9dccb6-f843-4c42-a586-c395a348b0d2">
+            </iframe>
+          </div>
+          <div class="col"></div>
+        </div>
+      </section>
+      <section id="about_section" class="p-5">
+        <div class="container">
+          <div class="row" id="about">
+            <h1>About</h1>
+            <p>
+              HealthBot is a chatbot that specializes in illness diagnosis and treatment. Users feeling unwell can chat with HealthBot on our web page and tell it the symptoms that they are experiencing. HealthBot then makes use of data provided by the Centers for Disease Control and Prevention to diagnose what illness the user most likely has. Users also have the option to book an appointment with healthcare professionals using HealthBot, and add this to their personal Google Calendar on the webpage.
+    
+              HealthBot was created using Google Dialogflow, which is a platform that is used for NLP. The webpage that hosts HealthBot is created using HTML, CSS/Bootstraps.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

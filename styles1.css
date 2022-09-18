@@ -1,0 +1,15 @@
+
+h1 {
+    text-align: justify;
+    display: block;
+    align-self: center;
+}
+
+#about_section {
+    scroll-padding-top: 50%;
+    scroll-padding-bottom: 50%;
+}
+
+.box{
+    background-color: bisque;
+}
